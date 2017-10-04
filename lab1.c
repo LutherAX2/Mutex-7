@@ -10,7 +10,7 @@
 void main (void)
 {
     
-    char counter;
+    char counter1;
     for(counter1=1;counter1 <= 15;counter1++)
     {
         TRISB = 0x00;
