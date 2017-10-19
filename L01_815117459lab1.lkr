@@ -28,6 +28,7 @@ CODEPAGE   NAME=eedata     START=0xF00000          END=0xF000FF       PROTECTED
 
 ACCESSBANK NAME=accessram  START=0x0               END=0x7F
 ACCESSBANK NAME=accesssfr  START=0xF80             END=0xFFF          PROTECTED
+
 DATABANK   NAME=gpr0       START=0x80              END=0x380
 DATABANK   NAME=gpr2       START=0x381             END=0x5FF
 STACK      SIZE=0x08       RAM=gpr2
